@@ -1,5 +1,12 @@
-import { home } from '/components'
+import React from 'react';
 
-export default function Page() {
-  return <h1>Hello, Home page!</h1>
-}
+const Home = () => {
+  return (
+    <div>
+      <h1>Welcome to My Next.js App</h1>
+      <p>This is the home page.</p>
+    </div>
+  );
+};
+
+export default Home;
